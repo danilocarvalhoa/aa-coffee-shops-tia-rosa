@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Coffee Shops Tia Rosa</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href=".\style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="#topo">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#trabalhe_conosco">Trabalhe conosco</a>
+    </div>
+    <div class="caixatransparente">
+      <div id="topo">
+        <a name="topo"></a>
+        <h2>
+        Coffee Shops Tia Rosa
+        </h2>
+        <h3>
+          Bem-vindo ao Coffee Shops Tia Rosa
+        </h3>
+        <p>
+          Delicie-se no mundo do café excepcional no Coffee Shops Tia Rosa. Nosso site é o seu portal para uma experiência de café como nenhuma outra.
+        </p>
+      </div>
+
+      <div id="menu">
+        <a name="menu"></a>
+        <h2>MENU</h2>
+        <h3>Explore Nosso Menu de Café</h3>
+        <p>Descubra uma ampla gama de opções de café que atendem a todos os paladares. Desde espresso rico e encorpado até cappuccino cremoso, temos algo para todos. Nossa seleção cuidadosamente elaborada de grãos de todo o mundo garante que cada xícara seja uma jornada de sabor.</p>
+
+        <div class="container flex flex-wrap space-around">
+          <div class="item">
+            <table class="center">
+              <thead>
+                <tr>
+                  <td>
+                    <h3>CAFÉ</h3>
+                  </td>
+                  <td>
+                    <h4>MÉDIO</h4>
+                  </td>
+                  <td>
+                    <h4>GRANDE</h4>
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Cafézinho</td>
+                  <td>2,90</td>
+                  <td>4,70</td>
+                </tr>
+                <tr>
+                  <td>Café com leite</td>
+                  <td>5,40</td>
+                  <td>6,80</td>
+                </tr>
+                <tr>
+                  <td>French press</td>
+                  <td>5,40</td>
+                  <td>6,80</td>
+                </tr>
+                <tr>
+                  <td>Café Gelado</td>
+                  <td>3,70</td>
+                  <td>4,70</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="item">
+            <table class="center">
+              <thead>
+                <tr>
+                  <td>
+                    <h3>ESPRESSO</h3>
+                  </td>
+                  <td>
+                    <h4>MÉDIO</h4>
+                  </td>
+                  <td>
+                    <h4>GRANDE</h4>
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Espresso</td>
+                  <td>3,50</td>
+                  <td>4,40</td>
+                </tr>
+                <tr>
+                  <td>Macchiato</td>
+                  <td>3,90</td>
+                  <td>4,50</td>
+                </tr>
+                <tr>
+                  <td>Cappuccino</td>
+                  <td>6,30</td>
+                  <td>8,30</td>
+                </tr>
+                <tr>
+                  <td>Café latte</td>
+                  <td>6,30</td>
+                  <td>8,30</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    <h2><center>TRABALHE CONOSCO</center></h2>
+      <h3><center>Venha fazer parte da nossa equipe!</center></h3>
+        <p>Preencha os dados abaixo que analisaremos seu contrato e retornaremos caso se encaixe em nosso perfil!</p>
+
+      <a name="trabalhe_conosco">
+      <section class="container flex flex-wrap space-around">
+        <div class="item">
+          <form
+            name="trabalhe_conosco"
+            method="post"
+            action="obrigado.html"
+            autocomplete="on"
+            target="_self"
+            enctype="multipart/form-data"
+          >
+            Nome:
+            <input
+              type="text"
+              placeholder="Informe seu nome completo"
+              name="Nome"
+              size="30"
+            />
+            <br />
+            <br />
+            Telefone:
+            <input
+              type="text"
+              placeholder="99 99999-9999"
+              pattern="\d{2} \d{5}-\d{4}$"
+              size="30"
+            />
+            <br />
+            <br />
+            Email:
+            <input
+              type="email"
+              placeholder="seuemail@dominio.com"
+              name="Email"
+              size="30"
+            />
+            <br />
+            <br />
+            Currículo: <input type="file" name="Currículo" size="30" />
+            <br />
+            <br />
+            <button type="button" id="enviar" onclick="alert('Currículo enviado com sucesso!')">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

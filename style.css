@@ -1,0 +1,119 @@
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+
+.space-around {
+	justify-content: space-around;
+}
+
+.item {
+	width: 300px;
+	margin: 5px;
+	background: #ccc;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.container {
+	max-width: 750px;
+	margin: 0 auto;
+}
+
+body{
+	text-align: center;
+	font-family: monospace;
+	max-width: fit-content;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	background-image: url('D:/IESB/Engenharia de Software/Linguagem de Programação para Web/Atividade Avaliativa/AA - 2272190255 - Danilo Carvalho/images/main.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+
+header {
+	text-align: center;
+	margin: 0 auto;
+}
+
+article {
+	text-align: center;
+	margin: 0 auto;
+}
+
+p {
+	margin: 2.5%;
+	font-size: 16px;
+	text-indent: 3em;
+	text-align: justify;
+}
+
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+	width: 290px;
+}
+
+div.caixatransparente {
+	margin: 1%;
+	margin-top: 50px;
+	width: 98%;
+	background-color: #ffffff;
+	opacity: 0.6;
+	z-index: 90;
+}
+
+.navbar {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	background-color: #848f90;
+	width: 100%;
+	opacity: 0.8;
+	z-index: 100;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.navbar a:hover {
+	background: #ddd;
+	color: black;
+}
+
+#topo{ 
+    padding-top: 30px;
+}
+
+#menu::before { 
+    content: ""; 
+    display: block; 
+    height: 50px;
+    margin: -50px 0 0; 
+}
+
+#trabalhe_conosco::before { 
+    content: ""; 
+    display: block; 
+    height: 50px;
+    margin: -50px 0 0; 
+}
