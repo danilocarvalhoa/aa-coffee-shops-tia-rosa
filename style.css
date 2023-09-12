@@ -37,7 +37,7 @@ body{
 	max-width: fit-content;
 	overflow-x: hidden;
 	overflow-y: scroll;
-	background-image: url('D:/IESB/Engenharia de Software/Linguagem de Programação para Web/Atividade Avaliativa/AA - 2272190255 - Danilo Carvalho/images/main.webp');
+	background-image: url('./images/main.webp');
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0;
