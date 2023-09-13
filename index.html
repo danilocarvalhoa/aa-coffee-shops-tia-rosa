@@ -115,55 +115,56 @@
         </div>
       </div>
 
-      <div><a name="trabalhe_conosco"></a>
-        <h2><center>TRABALHE CONOSCO</center></h2>
-          <h3><center>Venha fazer parte da nossa equipe!</center></h3>
-            <p>Preencha os dados abaixo que analisaremos seu contrato e retornaremos caso se encaixe em nosso perfil!</p>
+      <div id="trabalhe_conosco">
+        <a name="trabalhe_conosco"></a>
+          <h2><center>TRABALHE CONOSCO</center></h2>
+            <h3><center>Venha fazer parte da nossa equipe!</center></h3>
+              <p>Preencha os dados abaixo que analisaremos seu contrato e retornaremos caso se encaixe em nosso perfil!</p>
 
-        <section class="container flex flex-wrap space-around">
-          <div class="item">
-            <form
-              name="trabalhe_conosco"
-              method="post"
-              action="obrigado.html"
-              autocomplete="on"
-              target="_self"
-              enctype="multipart/form-data"
-            >
-              Nome:
-              <input
-                type="text"
-                placeholder="Informe seu nome completo"
-                name="Nome"
-                size="30"
-              />
-              <br />
-              <br />
-              Telefone:
-              <input
-                type="text"
-                placeholder="99 99999-9999"
-                pattern="\d{2} \d{5}-\d{4}$"
-                size="30"
-              />
-              <br />
-              <br />
-              Email:
-              <input
-                type="email"
-                placeholder="seuemail@dominio.com"
-                name="Email"
-                size="30"
-              />
-              <br />
-              <br />
-              Currículo: <input type="file" name="Currículo" size="30" />
-              <br />
-              <br />
-              <button type="button" id="enviar" onclick="alert('Currículo enviado com sucesso!')">Enviar</button>
-            </form>
-          </div>
-        </section>
+          <section class="container flex flex-wrap space-around">
+            <div class="item">
+              <form
+                name="trabalhe_conosco"
+                method="post"
+                action="obrigado.html"
+                autocomplete="on"
+                target="_self"
+                enctype="multipart/form-data"
+              >
+                Nome:
+                <input
+                  type="text"
+                  placeholder="Informe seu nome completo"
+                  name="Nome"
+                  size="30"
+                />
+                <br />
+                <br />
+                Telefone:
+                <input
+                  type="text"
+                  placeholder="99 99999-9999"
+                  pattern="\d{2} \d{5}-\d{4}$"
+                  size="30"
+                />
+                <br />
+                <br />
+                Email:
+                <input
+                  type="email"
+                  placeholder="seuemail@dominio.com"
+                  name="Email"
+                  size="30"
+                />
+                <br />
+                <br />
+                Currículo: <input type="file" name="Currículo" size="30" />
+                <br />
+                <br />
+                <button type="button" id="enviar" onclick="alert('Currículo enviado com sucesso!')">Enviar</button>
+              </form>
+            </div>
+          </section>
       </div>
     </div>
   </body>
